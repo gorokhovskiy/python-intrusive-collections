@@ -1,8 +1,14 @@
-# intrusive
+# python-intrusive-collections
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub](https://img.shields.io/badge/github-python--intrusive--collections-black.svg)](https://github.com/gorokhovskiy/python-intrusive-collections)
 
 Intrusive collections for Python — objects carry their own hooks and can sit in several lists or trees at once.
 
 Inspired by [Boost.Intrusive](https://www.boost.org/doc/libs/release/doc/html/intrusive.html). A pure-Python port will not match C++ speed, but it makes the *intent* obvious when one object must belong to multiple collections simultaneously: each membership is an explicit hook on the object, erase is O(1) given the object, and you avoid parallel “object ↔ node” maps that drift out of sync.
+
+**Keywords:** intrusive containers · doubly linked list · ordered set · multiset · red-black tree · Boost.Intrusive · weak links · multi-collection membership
 
 ## Why intrusive?
 

@@ -7,7 +7,18 @@ license = "Apache-2.0"
 license-files = ["LICENSE"]
 authors = [{ name = "Konstantin Gorokhovskiy" }]
 requires-python = ">=3.10"
-keywords = ["intrusive", "linked-list", "set", "multiset", "boost"]
+keywords = [
+    "intrusive",
+    "intrusive-containers",
+    "linked-list",
+    "doubly-linked-list",
+    "ordered-set",
+    "multiset",
+    "red-black-tree",
+    "data-structures",
+    "boost-intrusive",
+    "collections",
+]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
